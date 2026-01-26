@@ -187,7 +187,6 @@ async function updateBoard() {
     if (!td) continue;
 
     const textDiv = td.querySelector('.text-container');
-    console.log(textDiv);
     if (!textDiv) continue;
 
     const currentText = textDiv.textContent.trim();
