@@ -186,7 +186,8 @@ async function updateBoard() {
     const td = document.getElementById('slot' + slotId);
     if (!td) continue;
 
-    const textDiv = td.querySelector('.vertical-center.text-container');
+    const textDiv = td.querySelector('.text-container');
+    console.log(textDiv);
     if (!textDiv) continue;
 
     const currentText = textDiv.textContent.trim();
