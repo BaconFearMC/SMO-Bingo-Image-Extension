@@ -267,7 +267,7 @@ function injectLoadButtonBelowChooser() {
   btn.type = 'button';
   btn.textContent = 'Load Images';
   Object.assign(btn.style, {
-    background: '#B22222',
+    background: '#630000',
     color: 'white',
     border: 'none',
     padding: '6px 12px',
